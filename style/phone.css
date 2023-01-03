@@ -1,0 +1,44 @@
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+header .logo{
+    flex-direction: column;
+    width: 100%;
+}
+section h1 span{
+    color: rgb(37, 150, 190);
+    margin-right: 80px;
+    letter-spacing: 10px;
+    text-align: left;
+}
+section h1{
+    color: white;
+    font-size: 32px;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    line-height: 28px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.tagline p{
+    font-size: 0.7em;
+}
+section img{
+    height: 200px;
+}
+
+footer .arrow{
+    right: 20px;
+    bottom: -380px;
+}
+
+.projects .prolist iframe{
+    margin: 4px;
+    border-radius: 5px;
+    height: 300px;
+    width: 300px;
+}

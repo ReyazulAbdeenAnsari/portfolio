@@ -1,0 +1,68 @@
+body{
+    width: 100%;
+}
+header{
+    width: 100%;
+}
+.logo label{
+    display: block;
+    }
+header .logo{
+    flex-direction: row;
+    margin-top: 10px;
+}
+header #nav{
+    display: none;
+    position: absolute;
+    top: 60px;
+    width: 132%;
+}
+#nav a{
+    font-size: 10px;
+    text-align: center;
+    width: 800px;
+    background-color: rgba(0,34,51,255);
+}
+#nav a:hover {
+    color: rgb(37, 150, 190)
+}
+section{
+    flex-direction: column;
+    margin: 100px 0 35px 0;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+}
+section h1{
+    margin: 0 0px 0px 110px;
+    font-size: 40px;
+}
+section h1 span{
+    margin: 40px 250px 0px 0px;
+}
+section p{
+    display: none;
+}
+.projects .prolist iframe{
+    margin: 4px;
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+}
+.container .projects{
+    box-sizing: border-box;
+    width: 105%;
+}
+footer{
+    width: 105%;
+}
+footer .arrow{
+    right: 0px;
+    bottom: -405px
+}
+
+#checkbox:checked ~ #nav{
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+}
