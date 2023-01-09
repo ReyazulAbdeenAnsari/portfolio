@@ -36,6 +36,7 @@ section{
 section h1{
     margin: 0 0px 0px 110px;
     font-size: 40px;
+    display: none;
 }
 section h1 span{
     margin: 40px 250px 0px 0px;
